@@ -8,6 +8,7 @@
 <h3 align="center">AHN ☪</h3>
 <!-- <h3 align="center"><a href="https://ahnayef.t.me/" target="_blank">@AHNayef</a></h3> -->
 
+
 ###
 
 <div align="center">
@@ -16,7 +17,7 @@
 </div>
 
 ###
-
+<img src="https://raw.githubusercontent.com/ahnayef/ahnayef/main/assets/effect.gif">
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" width="42" alt="javascript logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" height="30" width="42" alt="typescript logo"  />
