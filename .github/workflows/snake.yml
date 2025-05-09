@@ -34,6 +34,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             snake.svg
+          snake_color: '#26a641'
+          background_color: '#0d1117'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
