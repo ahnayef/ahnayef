@@ -25,18 +25,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?palette=github-dark
+            snake.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Move the generated SVG to the root directory
-      - name: Move SVG to root
-        run: mv dist/snake.svg snake.svg
           
       # push the content to the repository
       - name: push snake.svg to the repository
